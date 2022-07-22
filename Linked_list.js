@@ -26,6 +26,7 @@ class LinkedList {
   }
 
   // Adding an element at the start of the list
+//   Time complexity = O(1) constant
   prepend(value) {
     // create a new node by instantiating the node class
     const node = new Node(value)
@@ -40,6 +41,27 @@ class LinkedList {
     // Update the size to keep track of the number of nodes in the list
     this.size++
   }
+
+//   Adding an element at the end of the lsit
+// Time complexity = O(n) Linear
+    append(value) {
+        const node = new Node(value)
+        // If the list is empty
+        if(this.isEmpty()) {
+            this.head = node
+            // If the list is not empty
+        } else {
+            let prev = this.head
+            while(prev.next) {
+                prev = prev.next
+            }
+            prev.next = node
+        }
+        this.size++
+
+    }
+  
+  
   //   We have to traverse through the list from the first node till the last node while printing the value of each node
   // Creating a temp pointer called "current" or cur for short to traverse the list
   // current will point at the head node since head is the first node in the list, we will then use the next pointer in each node to traverse the list
@@ -65,8 +87,12 @@ console.log("List size", list.getSize()) //0
 list.print() // print when the list is empty
 
 list.prepend(10)
+// list.append(10)
 list.print() // print when list has one item
 
 list.prepend(20)
 list.prepend(30)
-list.print() // print when the list has three items
+
+// list.append(20)
+// list.append(30)
+list.print() // print when the list has three items 

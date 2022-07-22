@@ -40,13 +40,33 @@ class LinkedList {
     // Update the size to keep track of the number of nodes in the list
     this.size++
   }
+  //   We have to traverse through the list from the first node till the last node while printing the value of each node
+  // Creating a temp pointer called "current" or cur for short to traverse the list
+  // current will point at the head node since head is the first node in the list, we will then use the next pointer in each node to traverse the list
+  print() {
+    if (this.isEmpty()) {
+      console.log("List is empty")
+    } else {
+      let curr = this.head //first node of the list
+      let listValues = ""
+      while (curr) {
+        listValues += `${curr.value} `
+        curr = curr.next
+      }
+      console.log(listValues)
+    }
+  }
 }
 
 const list = new LinkedList()
 console.log("List is empty?", list.isEmpty()) //true
 console.log("List size", list.getSize()) //0
 
+list.print() // print when the list is empty
+
 list.prepend(10)
+list.print() // print when list has one item
+
 list.prepend(20)
 list.prepend(30)
-list.prepend(40)
+list.print() // print when the list has three items

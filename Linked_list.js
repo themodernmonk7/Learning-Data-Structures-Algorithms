@@ -49,3 +49,4 @@ console.log("List size", list.getSize()) //0
 list.prepend(10)
 list.prepend(20)
 list.prepend(30)
+list.prepend(40)

@@ -3,7 +3,7 @@ HOW TO FAIL 🤦‍♂️ AT SOLVING PROBLEMS
     Example:
         In an array of GPS coordinates, find the two closet points.
 
-WHENEVER JOHN DOE ENCOUNTERS A PROBLEM:
+    WHENEVER JOHN DOE ENCOUNTERS A PROBLEM:
         💥 He jumps at the problem **without much thinking**
         💥 He implements his solution in an **unstructured way**
         💥 He **gets stressed out** when things don't work
@@ -16,7 +16,7 @@ WHENEVER JOHN DOE ENCOUNTERS A PROBLEM:
 
 #4 STEPS TO SOLVE ANY PROBLEM
 
-STEP 1️⃣ => Make sure you 100% understand the problem. Ask the right questions to get a clear picture of the problem.
+STEP 1️⃣  Make sure you 100% understand the problem. Ask the right questions to get a clear picture of the problem.
 
     Example: 
         🗣️ Project Manager: "We need a function that reverses **whatever** we pass into it"
@@ -28,7 +28,7 @@ STEP 1️⃣ => Make sure you 100% understand the problem. Ask the right questio
     👉 How to recognize wheather the argument is a number, a string, or an array?
     👉 How to reverse a number, a string and an array?
 
-STEP 2️⃣ => Divide and conquer: Break a big problem into smaller sub-problems.
+STEP 2️⃣  Divide and conquer: Break a big problem into smaller sub-problems.
 
     SUB-PROBLEMS:
         👉 Check if argument is a number, a string, or an array.
@@ -43,7 +43,7 @@ Well, in that case we should not be affraid of doing as much research as we have
 Now of course we should always first try to implement a sub-problem on our own using our own coding abilities, but if we are constatly hitting a wall and cannot move on then we should waste no more time and just find out how it works using google or a questions and answers website like stackoverflow or the mdn JavaScript documentation.
 Researching is a huge part of a programmer jobs. 
 
-STEP 3️⃣ => Don't be afraid to do as much research as you have to
+STEP 3️⃣  Don't be afraid to do as much research as you have to
 
         👉 How to check if a value is a number in JavaScript?
         👉 How to check if a value is a string in JavaScript?
@@ -52,7 +52,7 @@ STEP 3️⃣ => Don't be afraid to do as much research as you have to
         👉 How to reverse a string in JavaScript?
         👉 How to reverse an array in JavaScript?
 
-STEP 4️⃣ => For bigger problems, write pseudo-code before writing the actual code.
+STEP 4️⃣  For bigger problems, write pseudo-code before writing the actual code.
         
         EXAMPLE:
             function reverse(value)

@@ -1,7 +1,7 @@
 HOW TO FAIL 🤦‍♂️ AT SOLVING PROBLEMS
 
     Example:
-        In an array of GPS coordinates, find the two closet points.
+        In an array of GPS coordinates, find the two closet points. 
 
     WHENEVER JOHN DOE ENCOUNTERS A PROBLEM:
         💥 He jumps at the problem **without much thinking**

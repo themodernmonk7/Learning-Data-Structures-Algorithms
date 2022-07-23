@@ -36,7 +36,8 @@ STEP 3️⃣ => Don't be afraid to do as much research as you have to
         👉 How to reverse a string in JavaScript?
         👉 How to reverse an array in JavaScript?
 
-4️⃣. For bigger problems, write pseudo-code before writing the actual code.
+STEP 4️⃣ => For bigger problems, write pseudo-code before writing the actual code.
+        
         EXAMPLE:
             function reverse(value)
                 if value type !string || !number || !array

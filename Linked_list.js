@@ -67,6 +67,7 @@ class LinkedList {
     // CASE 2. Where index = 0
     if (index === 0) {
       this.prepend(value)
+      // CASE 3. Where index is valid and > 0
     } else {
       const node = new Node(value)
       let prev = this.head
@@ -77,6 +78,28 @@ class LinkedList {
       prev.next = node
       this.size++
     }
+  }
+
+  // Remove node from a given index in the list
+  removeFrom(value, index) {
+    if(index < 0 || index >= this.size) {
+      return null
+    }
+    let removeNode
+    if(index === 0) {
+      removeNode = this.head
+      this.head = this.head.next
+    } else {
+      let prev = this.head
+      for(let i = 0; i < index - 1; i++) {
+        prev = prev.next
+      }
+      removeNode = prev.next
+      prev.next = removeNode.next
+    }
+    this.size--
+    return removeNode.value
+
   }
 
   //   We have to traverse through the list from the first node till the last node while printing the value of each node
@@ -129,3 +152,11 @@ list.print()
 list.insert(40, 2)
 list.print()
 console.log(list.getSize())
+//* ===================== REMOVE ====================== **//
+console.log(list.removeFrom(0));
+list.print()
+
+console.log(list.removeFrom(1));
+list.print()
+console.log(list.getSize());
+

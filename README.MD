@@ -1,3 +1,19 @@
+HOW TO FAIL 🤦‍♂️ AT SOLVING PROBLEMS
+
+    Example:
+        In an array of GPS coordinates, find the two closet points.
+
+WHENEVER JOHN DOE ENCOUNTERS A PROBLEM:
+        💥 He jumps at the problem **without much thinking**
+        💥 He implements his solution in an **unstructured way**
+        💥 He **gets stressed out** when things don't work
+        💥 He is **too proud to research** solutions.
+                            ⬇️ FIX
+        👍 **Stay calm and slow down**, don't just jump at a problem without a plan
+        👍 Take a very **logical and rational approach** (programming is just logic, in the end...)
+        👍 Use **4-step framework** to solve any problem
+
+
 #4 STEPS TO SOLVE ANY PROBLEM
 
 STEP 1️⃣ => Make sure you 100% understand the problem. Ask the right questions to get a clear picture of the problem.

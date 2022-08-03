@@ -115,6 +115,24 @@ class BinarySearchTree {
       }
     }
   }
+
+  // min method
+  min(root) {
+    if (!root.left) {
+      return root.value
+    } else {
+      return this.min(root.left)
+    }
+  }
+
+  // max method
+  max(root) {
+    if (!root.right) {
+      return root.value
+    } else {
+      return this.max(root.right)
+    }
+  }
 }
 
 const bst = new BinarySearchTree()
@@ -144,4 +162,8 @@ bst.postOrder(bst.root) // 3, 5, 7, 10, 15
 
 //** ========== BFS - levelOrder METHOD ==========  */
 bst.levelOrder() // 10, 5, 15, 3, 7
+
+//** ========== BFS - levelOrder METHOD ==========  */
+console.log(bst.min(bst.root)) // 3
+console.log(bst.max(bst.root)) // 15
 

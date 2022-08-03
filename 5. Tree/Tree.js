@@ -64,6 +64,15 @@ class BinarySearchTree {
       this.preOrder(root.right)
     }
   }
+
+  //inorder method
+  inOrder(root) {
+    if(root) {
+        this.inOrder(root.left)
+        console.log(root.value);
+        this.inOrder(root.right)
+    }
+  }
 }
 
 const bst = new BinarySearchTree()
@@ -84,3 +93,6 @@ console.log(bst.search(bst.root, 20))
 
 //** ========== DFS - preOrder METHOD ==========  */
 bst.preOrder(bst.root) // 10, 5, 3, 7, 15
+
+//** ========== DFS - inOrder METHOD ==========  */
+bst.inOrder(bst.root) // 3, 5, 7, 10, 15

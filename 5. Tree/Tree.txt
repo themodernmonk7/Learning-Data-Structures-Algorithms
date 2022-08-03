@@ -35,3 +35,38 @@ Searching
 Sorting 
 To implement abstract data types such as lookup tables and priority queues 
 
+Tree Traversal 
+Visiting every node in the tree
+A hierarchical data structure like a tree can be traversed in different ways 
+    1. Depth First Search (DFS)
+    2. Breadth First Search (BFS)
+
+
+Depth First Search (DFS)
+The DFS algorithm starts at the root node and explores as far as possible along each branch before backtracking 
+Visit the root node, visit all the nodes in the left subtree and visit all the nodes in the right subtree 
+Depending on the order in which we do this, there can be tree types of DFS traversals 
+    1. Preorder 
+        - Read the data of the node 
+        -  Visit the left subtee 
+        - Visit the right subtree
+    2. Inorder 
+        - Visit the left subtree
+        - Read the data of the node
+        - Visit the right subtree
+    3. Postorder
+        - Visit the left subtree
+        - Visit the right subtree
+        - Read the data of the node
+
+Breadth First Search (DFS)
+Explore all nodes at the present depth prior to moving on to the nodes at the next depth level
+
+BFS Traversal Approach 
+    1. Create a queue 
+    2. Enqueue the root node 
+    3. As long as a node exists in the queue 
+        a. Dequue the node from the front 
+        b. Read the node's value
+        c. Enqueue the node's left child if it exists 
+        d. Enqueue the node's right child if it exists

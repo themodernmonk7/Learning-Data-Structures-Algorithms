@@ -67,19 +67,52 @@ class BinarySearchTree {
 
   //inorder method
   inOrder(root) {
-    if(root) {
-        this.inOrder(root.left)
-        console.log(root.value);
-        this.inOrder(root.right)
+    if (root) {
+      this.inOrder(root.left)
+      console.log(root.value)
+      this.inOrder(root.right)
     }
   }
 
   //postORder method
   postOrder(root) {
-    if(root) {
-        this.inOrder(root.left)
-        this.inOrder(root.right)
-        console.log(root.value);
+    if (root) {
+      this.inOrder(root.left)
+      this.inOrder(root.right)
+      console.log(root.value)
+    }
+  }
+
+  // BFS method
+  levelOrder() {
+    // Use the omptimised queue implementation
+    const queue = []
+    queue.push(this.root)
+    while (queue.length) {
+      let curr = queue.shift()
+      console.log(curr.value)
+      if (curr.left) {
+        queue.push(curr.left)
+      }
+      if (curr.right) {
+        queue.push(curr.right)
+      }
+    }
+  }
+  // BFS method
+  levelOrder() {
+    // Use the omptimised queue implementation
+    const queue = []
+    queue.push(this.root)
+    while (queue.length) {
+      let curr = queue.shift()
+      console.log(curr.value)
+      if (curr.left) {
+        queue.push(curr.left)
+      }
+      if (curr.right) {
+        queue.push(curr.right)
+      }
     }
   }
 }
@@ -108,3 +141,7 @@ bst.inOrder(bst.root) // 3, 5, 7, 10, 15
 
 //** ========== DFS - postOrder METHOD ==========  */
 bst.postOrder(bst.root) // 3, 5, 7, 10, 15
+
+//** ========== BFS - levelOrder METHOD ==========  */
+bst.levelOrder() // 10, 5, 15, 3, 7
+

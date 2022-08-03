@@ -1,0 +1,37 @@
+Tree 
+A tree is a hierarchical data structure that consists of nodes connected by edges.
+A tree is a non-linear data strucure, compared to arrays, linked lists, stacks and queues which are linear data structure.
+In linear data structures, the time required to search is proportional to the size of the data set.
+Trees however, owing to the non-linear nature allow quicker and easier access to the data.
+A tree will not contain any loops or cylcles.
+
+Tree Usage 
+File systems for directory structure 
+A family tree 
+An organisation tree 
+DOM 
+Chat bots 
+Abstract Syntax Tress (AST)
+
+Tree Terminology 
+
+Binary Tree 
+A binary tree is a data structure in which each nod ehas at most two children 
+They are referred to as left child and right child
+
+Binary Search Tree (BST)
+The value of each left node must be smaller than the parent node 
+The value of each right node must be greater than the parent node
+Each node has at most two children 
+
+Binary Search Tree Operations 
+Insertion - To add a node to the tree
+Search - To find a node given its value
+DFS & BFS - To visit all nodes in the tree
+Deletion - To remove a node given its value
+
+Binary Search Tree Usage 
+Searching
+Sorting 
+To implement abstract data types such as lookup tables and priority queues 
+

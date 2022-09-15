@@ -145,4 +145,8 @@ When writing programs at work, don't lose sight of the big picture. Rather than 
 - Determine the Big-O of the solution
 
 
-
+## Big-O Guide
+- Calculation not dependent on input size - O(1) => constant
+- 1 loop - O(n) => linear
+- 2 nested loops - O(n^2) => 
+- input size reduced by half - O(logn) =>

@@ -85,7 +85,7 @@ class BinarySearchTree {
 
   // BFS method
   levelOrder() {
-    // Use the omptimised queue implementation
+    // Use the optimized queue implementation
     const queue = []
     queue.push(this.root)
     while (queue.length) {
@@ -101,7 +101,7 @@ class BinarySearchTree {
   }
   // BFS method
   levelOrder() {
-    // Use the omptimised queue implementation
+    // Use the optimized queue implementation
     const queue = []
     queue.push(this.root)
     while (queue.length) {

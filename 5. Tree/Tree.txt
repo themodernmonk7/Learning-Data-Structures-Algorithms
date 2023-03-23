@@ -1,14 +1,14 @@
 Tree 
 A tree is a hierarchical data structure that consists of nodes connected by edges.
-A tree is a non-linear data strucure, compared to arrays, linked lists, stacks and queues which are linear data structure.
+A tree is a non-linear data structure, compared to arrays, linked lists, stacks and queues which are linear data structure.
 In linear data structures, the time required to search is proportional to the size of the data set.
 Trees however, owing to the non-linear nature allow quicker and easier access to the data.
-A tree will not contain any loops or cylcles.
+A tree will not contain any loops or cycles.
 
 Tree Usage 
 File systems for directory structure 
 A family tree 
-An organisation tree 
+An organization tree 
 DOM 
 Chat bots 
 Abstract Syntax Tress (AST)
@@ -16,7 +16,7 @@ Abstract Syntax Tress (AST)
 Tree Terminology 
 
 Binary Tree 
-A binary tree is a data structure in which each nod ehas at most two children 
+A binary tree is a data structure in which each nod has at most two children 
 They are referred to as left child and right child
 
 Binary Search Tree (BST)
@@ -48,7 +48,7 @@ Visit the root node, visit all the nodes in the left subtree and visit all the n
 Depending on the order in which we do this, there can be tree types of DFS traversals 
     1. Preorder 
         - Read the data of the node 
-        -  Visit the left subtee 
+        -  Visit the left subtree 
         - Visit the right subtree
     2. Inorder 
         - Visit the left subtree
@@ -66,7 +66,7 @@ BFS Traversal Approach
     1. Create a queue 
     2. Enqueue the root node 
     3. As long as a node exists in the queue 
-        a. Dequue the node from the front 
+        a. Dequeue the node from the front 
         b. Read the node's value
         c. Enqueue the node's left child if it exists 
         d. Enqueue the node's right child if it exists

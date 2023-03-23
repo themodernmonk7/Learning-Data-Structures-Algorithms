@@ -19,7 +19,7 @@ class Queue {
     return this.items.length === 0
   }
 
-  // Get the value of the element at the front of the queue wihout removing it
+  // Get the value of the element at the front of the queue without removing it
   peek() {
     if (!this.items) {
       return this.items[0]
@@ -32,7 +32,7 @@ class Queue {
     return this.items.length
   }
 
-  // Visualize the elemetns in the queue
+  // Visualize the elements in the queue
   print() {
     console.log(this.items.toString())
   }

@@ -5,10 +5,10 @@ Problem: Given two finite non-empty sets, find their cartesian product.
 
 function cartesianProduct(arr1, arr2) {
     const result = []
-    for(let i = 0; i < arr1.lenght; i++) {
-        for(let j = 0; j < arr2.lenght; j++) {
-            result.push([arr1[i], arr2[j]])
-        }
+    for (let i = 0; i < arr1.length; i++) {
+      for (let j = 0; j < arr2.length; j++) {
+        result.push([arr1[i], arr2[j]])
+      }
     }
     return result 
 }
@@ -32,7 +32,7 @@ console.log(cartesianProduct(arr1, arr2));
     ? How to ignore errors?
     ? Find max value in temp array (Google)
     ? Find min value in temp array
-    ? Substract min from max (amplitude) and return it
+    ? Subtract min from max (amplitude) and return it
 */
 
 const temps = [3, -2, -6, -1, 'error', 9, 13, 17, 15, 14, 9, 5]

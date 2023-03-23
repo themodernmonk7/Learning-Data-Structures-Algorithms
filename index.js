@@ -121,10 +121,10 @@ console.log(recursiveFactorial(8));
 
 /*
 Linear Search
-Problem: Given an array of 'n' elements and a target element 't', find the index of 't' in the array. Returun -1 if the target element is not found.
-arr = [-5, 2, 10, 4, 6], t = 10 -> Should retrun 2
-                        , t = 6 -> Should retrun 4
-                        , t = 20 -> Should retrun -1
+Problem: Given an array of 'n' elements and a target element 't', find the index of 't' in the array. Return -1 if the target element is not found.
+arr = [-5, 2, 10, 4, 6], t = 10 -> Should return 2
+                        , t = 6 -> Should return 4
+                        , t = 20 -> Should return -1
 */
 
 

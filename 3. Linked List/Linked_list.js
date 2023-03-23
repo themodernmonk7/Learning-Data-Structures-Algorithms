@@ -42,7 +42,7 @@ class LinkedList {
     this.size++
   }
 
-  //   Adding an element at the end of the lsit
+  //   Adding an element at the end of the list
   // Time complexity = O(n) Linear
   append(value) {
     const node = new Node(value)
@@ -82,16 +82,16 @@ class LinkedList {
 
   // Remove node from a given index in the list
   removeFrom(value, index) {
-    if(index < 0 || index >= this.size) {
+    if (index < 0 || index >= this.size) {
       return null
     }
     let removeNode
-    if(index === 0) {
+    if (index === 0) {
       removeNode = this.head
       this.head = this.head.next
     } else {
       let prev = this.head
-      for(let i = 0; i < index - 1; i++) {
+      for (let i = 0; i < index - 1; i++) {
         prev = prev.next
       }
       removeNode = prev.next
@@ -99,7 +99,6 @@ class LinkedList {
     }
     this.size--
     return removeNode.value
-
   }
 
   //   We have to traverse through the list from the first node till the last node while printing the value of each node

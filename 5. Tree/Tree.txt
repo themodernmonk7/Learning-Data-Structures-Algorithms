@@ -48,7 +48,7 @@ Visit the root node, visit all the nodes in the left subtree and visit all the n
 Depending on the order in which we do this, there can be tree types of DFS traversals 
     1. Preorder 
         - Read the data of the node 
-        -  Visit the left subtree 
+        - Visit the left subtree 
         - Visit the right subtree
     2. Inorder 
         - Visit the left subtree

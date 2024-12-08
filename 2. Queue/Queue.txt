@@ -1,0 +1,16 @@
+Queue 
+
+The queue data structure is a sequential collection of elements that follows the principle of First In First Out (FIFO)
+
+The first element inserted into the queue is first element to be removed 
+
+A queue of people. People enter the queue at one end (real/tail) and leave the queue from the other end (front/head).
+
+The Queue data structure supports two main operations 
+ - Enqueue, which adds and element to the real/tail of the collection
+ - Dequeue, which removes an element from the front/head of the collection
+
+Queue Usage 
+Printers 
+CPU task scheduling 
+Callback queue in JavaScript runtime

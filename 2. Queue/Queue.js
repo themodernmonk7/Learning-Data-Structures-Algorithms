@@ -4,14 +4,14 @@ class Queue {
   constructor() {
     this.items = []
   }
-
+  // Add elements on one end of the element
   enqueue(element) {
     this.items.push(element)
   }
 
   // Remove the oldest element from the queue
   dequeue() {
-    return this.items.shift()
+    return this.items.shift() // removes and returns an element from the beginning of the array
   }
 
   // Check if the queue is empty
